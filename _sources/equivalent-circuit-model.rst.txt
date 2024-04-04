@@ -61,6 +61,21 @@ ElectricalCircuitComponentModel
 
 .. raw:: html
 
+   <div id="ecm_e0ac3029_5671_4c34_81e8_a620706fcd5d"></div>
+
+EquivalentCircuitModel
+----------------------
+
+* https://w3id.org/emmo/domain/equivalent-circuit-model#ecm_e0ac3029_5671_4c34_81e8_a620706fcd5d
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
    <div id="ecm_aa2c994e_d612_4116_aeae_c1fec9626e02"></div>
 
 ResistorCapacitorElementModel
