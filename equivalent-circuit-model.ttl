@@ -12,8 +12,8 @@
 @base <https://w3id.org/emmo/domain/equivalent-circuit-model/equivalent-circuit-model> .
 
 <https://w3id.org/emmo/domain/equivalent-circuit-model/equivalent-circuit-model> rdf:type owl:Ontology ;
-                                                                                    owl:versionIRI <https://w3id.org/emmo/domain/equivalent-circuit-model/0.1.0-beta/equivalent-circuit-model> ;
-                                                                                    owl:imports <https://w3id.org/emmo/domain/battery/0.9.0-beta/battery> .
+                                                                                  owl:versionIRI <https://w3id.org/emmo/domain/equivalent-circuit-model/0.1.0-beta/equivalent-circuit-model> ;
+                                                                                  owl:imports <https://w3id.org/emmo/domain/battery/0.9.0-beta/battery> .
 
 #################################################################
 #    Object Properties
@@ -21,16 +21,16 @@
 
 ###  https://w3id.org/emmo/domain/equivalent-circuit-model#ecm_a5722696_cd7e_41a8_a4b0_d622ea6a30f9
 :ecm_a5722696_cd7e_41a8_a4b0_d622ea6a30f9 rdf:type owl:ObjectProperty ;
-                                           rdfs:subPropertyOf emmo:EMMO_54d0d0f4_d9fa_4179_a9b5_4110c49dafff ;
-                                           rdf:type owl:SymmetricProperty ;
-                                           skos:prefLabel "hasSeriesConnectionWith"@en .
+                                          rdfs:subPropertyOf emmo:EMMO_54d0d0f4_d9fa_4179_a9b5_4110c49dafff ;
+                                          rdf:type owl:SymmetricProperty ;
+                                          skos:prefLabel "hasSeriesConnectionWith"@en .
 
 
 ###  https://w3id.org/emmo/domain/equivalent-circuit-model#ecm_c5a698a7_b479_4b0d_ba07_6edc517a290a
 :ecm_c5a698a7_b479_4b0d_ba07_6edc517a290a rdf:type owl:ObjectProperty ;
-                                           rdfs:subPropertyOf emmo:EMMO_54d0d0f4_d9fa_4179_a9b5_4110c49dafff ;
-                                           rdf:type owl:SymmetricProperty ;
-                                           skos:prefLabel "hasParallelConnectionWith"@en .
+                                          rdfs:subPropertyOf emmo:EMMO_54d0d0f4_d9fa_4179_a9b5_4110c49dafff ;
+                                          rdf:type owl:SymmetricProperty ;
+                                          skos:prefLabel "hasParallelConnectionWith"@en .
 
 
 #################################################################
@@ -39,53 +39,59 @@
 
 ###  https://w3id.org/emmo/domain/equivalent-circuit-model#ecm_00a694a1_3d4e_4a83_b7e6_7ba1f321f4c3
 :ecm_00a694a1_3d4e_4a83_b7e6_7ba1f321f4c3 rdf:type owl:Class ;
-                                           rdfs:subClassOf :ecm_9ccc8442_e81e_4185_9731_85f87dc577f5 ;
-                                           skos:prefLabel "CapacitorModel"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a model of an electrical capacitor"@en .
+                                          rdfs:subClassOf :ecm_9ccc8442_e81e_4185_9731_85f87dc577f5 ;
+                                          skos:prefLabel "CapacitorModel"@en ;
+                                          emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a model of an electrical capacitor"@en .
 
 
 ###  https://w3id.org/emmo/domain/equivalent-circuit-model#ecm_2bf3ea1e_1ffc_4c9d_8c42_f4bacd515813
 :ecm_2bf3ea1e_1ffc_4c9d_8c42_f4bacd515813 rdf:type owl:Class ;
-                                           rdfs:subClassOf :ecm_9ccc8442_e81e_4185_9731_85f87dc577f5 ;
-                                           skos:prefLabel "VoltageSourceModel"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a model of an electrical voltage source"@en .
+                                          rdfs:subClassOf :ecm_9ccc8442_e81e_4185_9731_85f87dc577f5 ;
+                                          skos:prefLabel "VoltageSourceModel"@en ;
+                                          emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a model of an electrical voltage source"@en .
 
 
 ###  https://w3id.org/emmo/domain/equivalent-circuit-model#ecm_699d656a_43fd_43ad_9041_bb30a13c26d9
 :ecm_699d656a_43fd_43ad_9041_bb30a13c26d9 rdf:type owl:Class ;
-                                           rdfs:subClassOf :ecm_9ccc8442_e81e_4185_9731_85f87dc577f5 ;
-                                           skos:prefLabel "CurrentSourceModel"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a model of an electrical current source"@en .
+                                          rdfs:subClassOf :ecm_9ccc8442_e81e_4185_9731_85f87dc577f5 ;
+                                          skos:prefLabel "CurrentSourceModel"@en ;
+                                          emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a model of an electrical current source"@en .
 
 
 ###  https://w3id.org/emmo/domain/equivalent-circuit-model#ecm_9ccc8442_e81e_4185_9731_85f87dc577f5
 :ecm_9ccc8442_e81e_4185_9731_85f87dc577f5 rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_d7788d1a_020d_4c78_85a1_13563fcec168 ;
-                                           skos:prefLabel "ElectricalCircuitComponentModel"@en .
+                                          rdfs:subClassOf emmo:EMMO_d7788d1a_020d_4c78_85a1_13563fcec168 ;
+                                          skos:prefLabel "ElectricalCircuitComponentModel"@en .
 
 
 ###  https://w3id.org/emmo/domain/equivalent-circuit-model#ecm_aa2c994e_d612_4116_aeae_c1fec9626e02
 :ecm_aa2c994e_d612_4116_aeae_c1fec9626e02 rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_52bbaaee_1145_4be3_8a5c_b366851ea1b9 ,
-                                                           :ecm_9ccc8442_e81e_4185_9731_85f87dc577f5 ,
-                                                           [ rdf:type owl:Restriction ;
-                                                             owl:onProperty emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ;
-                                                             owl:someValuesFrom :ecm_00a694a1_3d4e_4a83_b7e6_7ba1f321f4c3
-                                                           ] ,
-                                                           [ rdf:type owl:Restriction ;
-                                                             owl:onProperty emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ;
-                                                             owl:someValuesFrom :ecm_ebf0246c_b88a_4339_9b64_a8798f476696
-                                                           ] ;
-                                           skos:altLabel "RCElementModel"@en ;
-                                           skos:prefLabel "ResistorCapacitorElementModel"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a model of an electrical resistor-capacitor element"@en .
+                                          rdfs:subClassOf emmo:EMMO_52bbaaee_1145_4be3_8a5c_b366851ea1b9 ,
+                                                          :ecm_9ccc8442_e81e_4185_9731_85f87dc577f5 ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ;
+                                                            owl:someValuesFrom :ecm_00a694a1_3d4e_4a83_b7e6_7ba1f321f4c3
+                                                          ] ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ;
+                                                            owl:someValuesFrom :ecm_ebf0246c_b88a_4339_9b64_a8798f476696
+                                                          ] ;
+                                          skos:altLabel "RCElementModel"@en ;
+                                          skos:prefLabel "ResistorCapacitorElementModel"@en ;
+                                          emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a model of an electrical resistor-capacitor element"@en .
+
+
+###  https://w3id.org/emmo/domain/equivalent-circuit-model#ecm_e0ac3029_5671_4c34_81e8_a620706fcd5d
+:ecm_e0ac3029_5671_4c34_81e8_a620706fcd5d rdf:type owl:Class ;
+                                          rdfs:subClassOf emmo:EMMO_d7788d1a_020d_4c78_85a1_13563fcec168 ;
+                                          skos:prefLabel "EquivalentCircuitModel"@en .
 
 
 ###  https://w3id.org/emmo/domain/equivalent-circuit-model#ecm_ebf0246c_b88a_4339_9b64_a8798f476696
 :ecm_ebf0246c_b88a_4339_9b64_a8798f476696 rdf:type owl:Class ;
-                                           rdfs:subClassOf :ecm_9ccc8442_e81e_4185_9731_85f87dc577f5 ;
-                                           skos:prefLabel "ResistorModel"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a model of an electrical resistor"@en .
+                                          rdfs:subClassOf :ecm_9ccc8442_e81e_4185_9731_85f87dc577f5 ;
+                                          skos:prefLabel "ResistorModel"@en ;
+                                          emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a model of an electrical resistor"@en .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
